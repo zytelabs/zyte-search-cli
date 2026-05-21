@@ -4,6 +4,10 @@
 
 A command-line tool for the [Zyte Search API](https://docs.zyte.com/zyte-api/usage/search.html). Returns organic search results and AI Overviews as clean, structured JSON — suitable for agent pipelines or direct inspection.
 
+## Screenshot
+
+![Zyte Search TUI](docs/tui-screenshot.svg)
+
 ## Features
 
 - Fetches organic results and AI Overviews from Google via the Zyte Search API
