@@ -13,7 +13,7 @@ A command-line tool for the [Zyte Search API](https://docs.zyte.com/zyte-api/usa
 ## Requirements
 
 - Python 3.12+
-- A [Zyte API key](https://app.zyte.com/signup) — sign up free at **https://app.zyte.com/signup**
+- A [Zyte API key](https://www.zyte.com/sign-up) — sign up free at **https://www.zyte.com/sign-up**
 
 ## Setup
 
@@ -128,7 +128,7 @@ The `aiOverview` key is omitted when Google does not return an AI Overview for t
 
 - [Zyte API documentation](https://docs.zyte.com/zyte-api/get-started.html)
 - [Zyte Search API reference](https://docs.zyte.com/zyte-api/usage/search.html)
-- [Sign up for Zyte API](https://app.zyte.com/signup)
+- [Sign up for Zyte API](https://www.zyte.com/sign-up)
 - [API key management](https://app.zyte.com/o/profile/apikey)
 
 ## License
