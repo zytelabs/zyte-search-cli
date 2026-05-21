@@ -1,0 +1,11 @@
+[project]
+name = "zyte-search"
+version = "0.1.0"
+description = "CLI tool for the Zyte Search API — returns organic results and AI Overviews as structured JSON"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "textual>=8.2.7",
+]
