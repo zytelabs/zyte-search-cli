@@ -1,12 +1,14 @@
 # zyte-search
 
+> **Community project** — this is not officially supported by Zyte and may be subject to breaking changes.
+
 A command-line tool for the [Zyte Search API](https://docs.zyte.com/zyte-api/usage/search.html). Returns organic search results and AI Overviews as clean, structured JSON — suitable for agent pipelines or direct inspection.
 
 ## Features
 
 - Fetches organic results and AI Overviews from Google via the Zyte Search API
 - Outputs structured JSON to stdout; all logging goes to stderr
-- Clean AI Overview extraction: prose text, bullet items, and source links — all deduplicated and stripped of citation noise
+- Clean AI Overview extraction: prose text, bullet items, and source links — all deduplicated and stripped of citation noise. **Note:** AI Overview parsing is best-effort and not guaranteed to be perfect; the output is designed to be consumed by an LLM rather than parsed programmatically.
 - Interactive TUI mode (`--tui`) built with [Textual](https://textual.textualize.io/)
 - Optional HTML snapshot saves for debugging
 
