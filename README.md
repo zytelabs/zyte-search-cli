@@ -2,6 +2,8 @@
 
 > **Community project** — this is not officially supported by Zyte and may be subject to breaking changes.
 
+> **Vibecoded** — this project was built with AI assistance and has not been rigorously audited. Treat the code accordingly: review it before using it in anything important, and don't assume it is correct, secure, or production-ready.
+
 A command-line tool for the [Zyte Search API](https://docs.zyte.com/zyte-api/usage/search.html). Returns organic search results and AI Overviews as clean, structured JSON — suitable for agent pipelines or direct inspection.
 
 ## Screenshot
